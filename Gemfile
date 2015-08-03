@@ -34,6 +34,10 @@ gem 'sdoc', '0.4.0', group: :doc
 
 # Use Devise for user authentication
 gem 'devise', '3.5.1'
+# Use stripe for payments
+gem 'stripe', '1.24.0'
+# use figaro for hidden fields
+gem 'figaro', '1.1.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
