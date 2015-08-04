@@ -33,6 +33,10 @@
           <%= f.text_field :country, class: 'form-control' %>
         </div>
         <div class="form-group">
+            <%= f.label :description %>
+            <%= f.text_area :decsription, class: 'form-control' %>
+        </div>
+        <div class="form-group">
           <%= f.submit "Update Profile", class: 'btn btn-primary' %>
         </div>
       <% end %>

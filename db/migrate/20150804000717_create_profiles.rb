@@ -9,6 +9,7 @@ class CreateProfiles < ActiveRecord::Migration
       t.string :favorite_sport_level
       t.string :age_range
       t.string :country
+      t.string :description
       t.timestamps
     end
   end
