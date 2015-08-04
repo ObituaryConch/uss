@@ -14,6 +14,10 @@ class ProfilesController < ApplicationController
       render action: :new
     end
   end
+  def edit
+    @user = User.find( params[:user_id] )
+    @profile = @user.profile
+  end
   private
     def profile_params
       params.require(:profile).permit(:user_name, :first_name, :last_name, :favorite_team, :favorite_sport_level, :age_range, :country, :description)
