@@ -1,9 +1,10 @@
-<%= @user.profile.user_name %><br/>
+<%= @user.profile.username %><br/>
 <% if current_user.plan_id == 2 %>
   <%= @user.profile.first_name %> <%= @user.profile.last_name %>
 <% end %>
+<br>
 <%= @user.profile.age_range %><br/>
-<%= @user.profile.country %><br/>
 <%= @user.profile.favorite_team %><br/>
 <%= @user.profile.favorite_sport_level %><br/>
+<%= @user.profile.country %><br/>
 <%= @user.profile.description %><br/>

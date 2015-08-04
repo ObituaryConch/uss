@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(version: 20150804000717) do
     t.string   "favorite_sport_level"
     t.string   "age_range"
     t.string   "country"
+    t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
