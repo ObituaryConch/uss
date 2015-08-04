@@ -13,4 +13,7 @@ class User < ActiveRecord::Base
       save!
     end
   end
+  def forem_name
+    :username
+  end
 end

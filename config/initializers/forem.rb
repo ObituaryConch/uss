@@ -5,7 +5,9 @@ Forem.email_from_address = "please-change-me@example.com"
 Forem.per_page = 20
 
 
-# Rails.application.config.to_prepare do
+Rails.application.config.to_prepare do
+    Forem.layout = "application"
+end
 #   If you want to change the layout that Forem uses, uncomment and customize the next line:
 #   Forem::ApplicationController.layout "forem"
 #
