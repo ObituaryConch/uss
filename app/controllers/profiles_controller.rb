@@ -32,7 +32,7 @@ class ProfilesController < ApplicationController
   end
   private
     def profile_params
-      params.require(:profile).permit(:first_name, :last_name, :job_title, :phone_number, :contact_email, :description)
+      params.require(:profile).permit(:username, :first_name, :last_name, :avatar, :favorite_team, :favorite_sport_level, :age_range, :country, :description)
     end
     def only_current_user
       @user = User.find( params[:user_id] )
