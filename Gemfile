@@ -41,6 +41,13 @@ gem 'figaro', '1.1.1'
 # Use paperclip for user images
 gem 'paperclip', '4.3.0'
 
+# Use Forem for forum
+gem 'forem', github: "radar/forem", branch: "rails4"
+gem 'forem-bootstrap', github: "radar/forem-bootstrap"
+gem 'forem-redcarpet', github: "radar/forem-redcarpet"
+# For pagination
+gem 'will_paginate'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
