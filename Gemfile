@@ -38,6 +38,8 @@ gem 'devise', '3.5.1'
 gem 'stripe', '1.24.0'
 # use figaro for hidden fields
 gem 'figaro', '1.1.1'
+# Use paperclip for user images
+gem 'paperclip', '4.3.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
