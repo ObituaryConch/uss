@@ -6,13 +6,13 @@ A text based multiplayer game that puts you as the coach/manager of a Profession
 Features
 ========
 
-* Multiplayer - Play against other Coaches
-* Multiple Sports
+* Multiplayer - Play against other Coaches - In the Works but should not be difficult. 
+* Multiple Sports - Planning
     * Basketball
     * Football
     * Baseball
     * Etc...
-* Community
-* Site Mail
-* Forums
+* Community - Developed but not complete
+* Site Mail - Planning
+* Forums - Planning
 
